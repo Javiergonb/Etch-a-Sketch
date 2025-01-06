@@ -1,0 +1,25 @@
+button{
+    display: flex;
+    padding: 25px;
+    margin: 50px 50px;
+    justify-self: center;
+    
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: solid black 2px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.item {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+}
